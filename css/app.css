@@ -183,7 +183,7 @@ table.float-center {
 body,
 table.body,
 h1,
-h2,
+h3,
 p,
 td,
 th,
@@ -198,7 +198,7 @@ a {
   line-height: 1.4; }
 
 h1,
-h2 {
+h3 {
   color: inherit;
   word-wrap: normal;
   font-family: "Open Sans", Arial, sans-serif;
@@ -209,8 +209,8 @@ h2 {
 h1 {
   font-size: 34px; }
 
-h2 {
-  font-size: 30px; }
+h3 {
+  font-size: 28px; }
 
 body,
 table.body,
@@ -326,11 +326,10 @@ h1 {
   text-align: center;
   font-weight: 300; }
 
-h2 {
-  font-size: 28px;
-  color: #005587;
-  margin-bottom: 20px;
-  text-align: center; }
+h3 {
+  font-size: 24px;
+  color: #ffffff;
+  margin: 0; }
 
 p.pointer {
   text-align: center;
@@ -420,12 +419,6 @@ table.button table td {
 
 .no-bottom-padding {
   padding-bottom: 0 !important; }
-
-sup {
-  font-size: 12px;
-  line-height: 12px;
-  display: inline-block;
-  margin-left: 3px; }
 
 .intro-cta {
   font-size: 14px; }
